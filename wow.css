@@ -1,0 +1,223 @@
+/*css reset*/
+body,h1,h2,h3,p,ul,li,ol {
+	margin: 0;
+	padding: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/*common css*/
+.clearfix {
+	content: '';
+	display: block;
+	clear: both;
+}
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+* {
+	box-sizing: border-box;
+}
+/*page css*/
+body {
+	font: 12px/1.3 "微软雅黑",Arial;
+	background-color: #000;
+}
+header {
+	/*background: url(./images/background-image.jpg) center center no-repeat;*/
+	background-size: cover;
+	overflow: hidden;
+	height: 700px;
+}
+.navbar {
+	margin-top: 40px;
+}
+.navbar>li {
+	float: left;
+	border: 1px solid #3f2a22;
+	border-left: none;
+	height: 70px;
+	width: 160px;
+	background-color: #211510;
+}
+.navbar>li:first-child {
+	border-left: 1px solid #3f2a22;
+}
+.navbar>li a {
+	color: #f8b700;
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar>li a:hover{
+	color: #fff;
+}
+.navbar .logo {
+	width: 240px;
+}
+.navbar .logo img {
+	position: relative;
+	top: -40px;
+}
+.video-show {
+	position: absolute;
+	top: 0;
+	left: -100px;
+	z-index: -1;
+}
+.video-show video{
+	width: 100%;
+}
+header .pic {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -150px;
+}
+.content ul>li {
+	float: left;
+	position: relative;
+	width: 288px;
+	margin-right: 16px;
+	border: 2px solid #3f2a22;
+}
+.content ul {
+	margin-left: -16px;
+	transition: top 2s;
+}
+.content ul>li:hover{
+	top: -10px;
+}
+.content .item p:hover {
+	color: #fff;
+}
+.content .item p {
+	font-size: 18px;
+    font-weight: bold;
+    color: #f8b700;
+    background: #211510;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;   
+}
+.content .item img{
+	border-top: 2px solid #3f2a22;
+	width: 284px;
+}
+.business,.extra{
+	width: 900px;
+	margin: 0 auto;
+}
+.business {
+	padding: 100px 0 50px 0;
+	font-size: 14px;
+}
+.business .contact{
+	float: left;
+	width: 400px;
+}
+.business .contact a {
+	float: left;
+	margin-right: 40px;
+	color: #b3b3b3;
+}
+.business .contact a:hover{
+	color: #fff;
+}
+.business .contact .icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(./images/icon-2.png) no-repeat;
+}
+.business .contact .icon-kefu {
+	background-position: -6px -6px;
+}
+.business .contact .icon-fankui {
+	background-position: -35px -6px;
+}
+.business .contact .icon-join {
+	background-position: -6px -32px;
+}
+.business .brand{
+	float: left;
+	width: 300px;
+	height: 26px;
+	margin-left: 200px;
+	color: #fff;
+}
+.business .brand .icon {
+	display: inline-block;
+	height: 26px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(./images/icon-3.png) no-repeat;
+}
+.business .brand .icon-intel {
+	width: 36px;
+	background-position: 0 0;
+}
+.business .brand .icon-nvidia {
+	width: 95px;
+	background-position: -36px 0;
+}
+.extra {
+	margin-top: 20px;
+	width: 1000px;
+}
+.extra .brand-logo{
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+}
+.extra .brand-logo .icon-blizzard {
+	display: inline-block;
+	width: 140px;
+    height: 80px;
+	background: url(./images/icon-1.png) 0 0 no-repeat;
+}
+.extra .brand-logo .icon-netease {
+	display: inline-block;
+	width: 125px;
+    height: 38px;
+    margin-left: 20px;
+	background: url(./images/icon-4.png) 0 0 no-repeat;
+}
+.extra .info{
+	display: inline-block;
+	width: 640px;
+	/*margin-left: 50px;*/
+	text-align: left;
+	color: #b3b3b3;
+	font-size: 14px;
+}
+.info .title {
+	padding-bottom: 5px;
+}
+.info .title span {
+	display: inline-block;
+	padding: 0 12px;
+	line-height: 20px;
+}
+.info .text {
+	padding-left: 12px;
+	font-size: 12px;
+	color: rgba(255,255,255,.3);
+}
+.extra .warning {
+	margin: 40px auto;
+    padding: 20px;
+	text-align: center;
+	color: rgba(255,255,255,.3);
+}
+
+
